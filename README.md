@@ -26,27 +26,35 @@ Generates the project's documentation using typedoc in `/docs` folder.
 #### Test
 `yarn test` or `npm run test`
 
-### API Endpoint
 
-##### User CRUD endpoints
 
-`POST user/`
-`GET user/:id`
-`GET user/`
-`PUT user/:id`
-`DELETE user/:id`
 
-##### Preview Link endpoint
 
-`/previewLink`
+## API Endpoints
+
+##### User CRUD endpoints (Task1)
+
+- `POST user/`
+- `GET user/:id`
+- `GET user/`
+- `PUT user/:id`
+- `DELETE user/:id`
+
+##### Preview Link endpoint (Task2)
+
+- `/previewLink`
+
+
+
+
 
 
 ## Task Completion
 
 Please import `OnLoop.postman_collection.json` file in Postman to test API endpoints.
 
-- [x] Task1
+- [x] Task1: 
 Create a simple CRUD app using NodeJS Express server and expose 4 API endpoints for each of create, read, update and delete operations
 
-- [x] Task2
+- [x] Task2: 
 Write a custom API in the same NodeJS Express server to fetch data from a 3rd party API and store it in Firestore
